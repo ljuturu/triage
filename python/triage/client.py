@@ -89,6 +89,7 @@ class Client:
         d = {
             'kind': 'file',
             'interactive': interactive,
+            'priority': 'medium',
             'profiles': profiles,
         }
         if password:
