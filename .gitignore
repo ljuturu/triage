@@ -1,1 +1,4 @@
-/triage
+__pycache__
+*.egg-info
+/dist
+*.pyc

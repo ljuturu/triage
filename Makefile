@@ -1,5 +1,6 @@
+.PHONY: all test
+
 all:
-	go build -o triage github.com/hatching/triage/go/cmd/triage
 
 test:
-	go test ./go
+	python3 -m pytest tests/
